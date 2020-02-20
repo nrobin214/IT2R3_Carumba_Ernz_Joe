@@ -1,0 +1,55 @@
+body {
+    background-color: #3AAFA9;
+    background-image: url(../prac/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+header {
+    /* color: aliceblue; */
+    padding: 75px;
+    background-color: #17252A;
+    margin: -20px;
+    border: solid;
+    border-color: #2B7A78;
+    width: 100%;
+    height: 30px;
+}
+.logo-section img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: -94px;
+    margin-top: -89px;
+    margin-bottom: 98px;
+    margin-right: 99px;
+    /* text-shadow: 17px -2px black; */
+}
+
+nav {
+    float: right;
+    font-size: 31px;
+    margin-top: 63px;
+    margin-right: 161px;
+}
+
+a {
+    color: #FEFFFF;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-right: 110px;
+    margin-top: 100px;
+    font-style: sans serif;
+    font-size: 75px;
+    /* border: 1px; */
+    border-style: solid;
+    border-color: #2b7a78;
+    color: #e7e6e2;
+}
+
+.banner-section h1{
+    
+}
