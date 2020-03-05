@@ -42,7 +42,10 @@ a {
 }
 img {
     width: 100%;
+    
+    border-radius: 50%;
 }
+
 .container {
     width: 1600px;
     margin: 0 auto;
@@ -54,8 +57,8 @@ h1 {
     font-style: sans serif;
     font-size: 75px;
     /* border: 1px; */
-    border-style: solid;
-    border-color: #2b7a78;
+    
+    
     color: #143137;
 }
 
@@ -82,6 +85,12 @@ h2.title {
     width: 57%;
     display: inline-block;
 }
+p {
+    color: #27987e;
+    /* size: 23px; */
+    font-size: 26px;
+}
+
 .about-div-right {
     width: 20%;
     float: right;
@@ -104,12 +113,15 @@ section.service-section{
 }
 i.fas.fa-american-sign-language-interpreting {
     color: #1063ab;
+    font-size: 68px;
 }
 i.fas.fa-ambulance {
     color: #bf1c00;
+    font-size: 68px;
 }
 i.fab.fa-adobe {
     color: #15635c;
+    font-size: 68px;
 }
 a.service-button {
     text-decoration: none;
@@ -123,4 +135,49 @@ i.fas.fa-arrow-right {
     position: absolute;
     margin-left: 5px;
     color: #e54a20;
+}
+
+
+/* call to action section */
+.cta-section {
+    color: #ffffff;
+    /* size: 23px; */
+    font-size: 26px;
+    background-color: #0c4150;
+    padding: 100px;
+    text-align: center;
+}
+.footer-section ul {
+    list-style: none;
+}
+.cta-section p {
+    color: #ffffff;
+    /* size: 23px; */
+    font-size: 26px;
+}
+
+button {
+    font-size: 28px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #1a9cc16e;
+    border-color: #ffffff;
+    color: white;
+}
+footer {
+    background-color: #175769;
+    color: whitesmoke;
+    width: 100%;
+    padding-bottom: 233px;
+    /* text-align: center; */
+}
+.footer-section {
+    float: left;
+    /* clear: both; */
+    font-size: 20px;
+    width: 33%;
+}
+.footer-section li {
+    padding-bottom: 22px;
+
 }
